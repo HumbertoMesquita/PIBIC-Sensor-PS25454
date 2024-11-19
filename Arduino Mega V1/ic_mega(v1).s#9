@@ -24521,7 +24521,6 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="VALUE" x="109.18" y="135.14" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="J1" gate="G$1" x="307.34" y="248.92" smashed="yes">
-<attribute name="VALUE" x="303.53" y="236.22" size="1.778" layer="96"/>
 <attribute name="NAME" x="303.53" y="259.842" size="1.778" layer="95"/>
 </instance>
 <instance part="SUPPLY1" gate="G$1" x="238.76" y="185.42" smashed="yes" rot="R270">

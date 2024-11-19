@@ -24855,6 +24855,19 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="351.48" y1="86.2" x2="351.6" y2="86.2" width="0.1524" layer="91"/>
 <label x="353" y="86.6" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="SUPPLY4" gate="G$1" pin="VSS"/>
+<wire x1="32.9" y1="54.32" x2="32.9" y2="45.74" width="0.1524" layer="91"/>
+<wire x1="32.9" y1="45.74" x2="32.9" y2="45.4" width="0.1524" layer="91"/>
+<junction x="32.9" y="45.74"/>
+<pinref part="U3" gate="A" pin="V-"/>
+<wire x1="45.72" y1="48.26" x2="45.72" y2="45.74" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="45.74" x2="32.9" y2="45.74" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="1" pin="GNDA"/>
+<wire x1="22.3" y1="42.24" x2="22.3" y2="45.74" width="0.1524" layer="91"/>
+<wire x1="22.3" y1="45.74" x2="32.9" y2="45.74" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VDD" class="0">
 <segment>
@@ -25140,20 +25153,6 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="B1" gate="B1" pin="3.3V"/>
 <wire x1="276.3" y1="195.7" x2="288.26" y2="195.7" width="0.1524" layer="91"/>
 <wire x1="288.26" y1="195.7" x2="288.26" y2="195.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C2" gate="G$1" pin="2"/>
-<pinref part="SUPPLY4" gate="G$1" pin="VSS"/>
-<wire x1="32.9" y1="54.32" x2="32.9" y2="45.74" width="0.1524" layer="91"/>
-<wire x1="32.9" y1="45.74" x2="32.9" y2="45.4" width="0.1524" layer="91"/>
-<wire x1="32.9" y1="45.4" x2="22.2" y2="45.4" width="0.1524" layer="91"/>
-<junction x="32.9" y="45.74"/>
-<pinref part="GND5" gate="1" pin="GNDA"/>
-<wire x1="22.2" y1="45.4" x2="22.2" y2="42.24" width="0.1524" layer="91"/>
-<wire x1="22.2" y1="42.24" x2="22.3" y2="42.24" width="0.1524" layer="91"/>
-<pinref part="U3" gate="A" pin="V-"/>
-<wire x1="45.72" y1="48.26" x2="45.72" y2="45.74" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="45.74" x2="32.9" y2="45.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY7" gate="G$1" pin="VSS"/>
